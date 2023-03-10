@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
+
+body{
+    background: rgba(211, 211, 211, 0.336);
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.container{
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+    min-width: 80%;
+    font-size: 20px;
+    box-shadow:0 0 1px #333;
+
+}
+
+h3,p{
+    text-align: center;
+}
+
+p a{
+    text-decoration:none;
+    color:#0077c5;
+}
+
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.formgroup input{
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid grey;
+    padding:0 10px;
+    font-size: 20px;
+    color:#333;
+
+}
+
+.formgroup input:focus{
+    border:1px solid #0077c5;
+    outline:#0077c5;
+    box-shadow:0 0 3px #0077c5;
+
+
+}
+
+.error{
+    border:1px solid darkred !important;
+    outline:red !important;
+}
+
+button{
+    background-color: #0077c5;
+    padding:10px;
+    color:white;
+    outline:0;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+td{
+    padding: 10px;
+}
+
+.profileimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color:#0077c5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:600px){
+    .container{
+        min-width: 50%;
+    }
+}
